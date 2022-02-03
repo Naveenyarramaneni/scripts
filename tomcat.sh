@@ -9,6 +9,9 @@ sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.58/bin/apache-tomcat-9.0
 sudo unzip apache-tomcat-9.0.58-windows-x64.zip
 # delete the zip
 sudo rm -f apache-tomcat-9.0.58-windows-x64.zip
+# rename 
 sudo mv apache-tomcat* tomcat
+# give the permissios
 sudo chmod -R 755 /opt/tomcat/
+#start the tomcat
 sudo sh /opt/tomcat/bin/startup.sh
