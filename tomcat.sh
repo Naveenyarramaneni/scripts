@@ -1,6 +1,6 @@
 #!/bin/bash
 # install the java
-sudo amazon-linux-extras epel 
+sudo amazon-linux-extras install epel 
 sudo amazon-linux-extras install java-openjdk11 -y
 # install the tomcat
 cd /opt/
