@@ -1,4 +1,4 @@
-installing the maven 
+#installing the maven 
 
 #!/bin/bash
 # install git
